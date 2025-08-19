@@ -8,7 +8,7 @@ const Home = () => {
   const [filteredRestaurant, setFilteredRestaurant] = useState([])
 
   useEffect(() => {
-
+console.log("มาถึงตรงนี้แล้ว")
     // call api: GetAllRestaurants
     fetch('http://localhost:5000/api/v1/restaurant')
     .then((res) => {
